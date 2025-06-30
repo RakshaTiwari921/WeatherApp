@@ -136,3 +136,48 @@ body{
     color: #fff;
     margin-top: 20px;
   }
+
+@media (max-width: 500px) {
+  .card {
+    padding: 20px;
+    margin: 30px auto;
+    width: 95%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .search {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .search input {
+    font-size: 16px;
+    height: 45px;
+    padding: 8px 15px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .search button {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+  }
+
+  .weather h1 {
+    font-size: 50px;
+  }
+
+  .weather h2 {
+    font-size: 28px;
+  }
+
+  .main-heading {
+    font-size: 24px;
+  }
+
+  .sub-heading {
+    font-size: 14px;
+  }
+}
